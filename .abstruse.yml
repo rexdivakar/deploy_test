@@ -1,0 +1,9 @@
+image: "abstruse_builder-golang"
+
+matrix:
+  - env: MAKE='test'
+  - env: MAKE='build'
+
+install:
+  - sudo apt-get install libpcap-dev -y
+
